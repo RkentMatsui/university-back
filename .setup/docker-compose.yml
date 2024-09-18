@@ -26,7 +26,7 @@ services:
       - laravel
 
   db:
-    image: mysql:5.7
+    image: ghcr.io/rkentmatsui/university-back:db-latest
     container_name: mysql
     environment:
       MYSQL_ROOT_PASSWORD: root
